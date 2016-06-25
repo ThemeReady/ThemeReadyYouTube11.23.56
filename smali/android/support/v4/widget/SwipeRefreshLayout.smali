@@ -306,7 +306,7 @@
     iget-object v1, v1, Lxd;->b:Lxh;
 
     .line 4511
-    const v2, -0x50506
+    const v2, -0xeeeeef
 
     iput v2, v1, Lxh;->v:I
 
