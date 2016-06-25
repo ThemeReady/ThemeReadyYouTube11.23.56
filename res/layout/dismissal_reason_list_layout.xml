@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/video_dismissal_card_background" android:paddingBottom="@dimen/start_end_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="@dimen/dismissal_dialog_min_width" _xmlns:android="http://schemas.android.com/apk/res/android" xmlns:_xmlns="xmlns"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/dismissal_title_text_size" android:id="@id/title" android:padding="12.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="@bool/rtl_single_line_true" android:includeFontPadding="false" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/close_button" android:layout_width="@dimen/dismissal_close_icon_size" android:layout_height="@dimen/dismissal_close_icon_size" android:layout_marginLeft="@dimen/start_end_padding" android:layout_marginRight="@dimen/start_end_padding" android:src="@drawable/ic_close_grey" android:layout_weight="0.0" android:contentDescription="@string/accessibility_dismiss" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/reasons" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

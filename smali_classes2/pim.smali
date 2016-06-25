@@ -1,0 +1,55 @@
+.class public final Lpim;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lwpl;
+
+
+# instance fields
+.field private final a:Lpgy;
+
+
+# direct methods
+.method private constructor <init>(Lpgy;)V
+    .locals 0
+
+    .prologue
+    .line 13
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 15
+    iput-object p1, p0, Lpim;->a:Lpgy;
+
+    .line 16
+    return-void
+.end method
+
+.method public static a(Lpgy;)Lwpl;
+    .locals 1
+
+    .prologue
+    .line 25
+    new-instance v0, Lpim;
+
+    invoke-direct {v0, p0}, Lpim;-><init>(Lpgy;)V
+
+    return-object v0
+.end method
+
+
+# virtual methods
+.method public final synthetic get()Ljava/lang/Object;
+    .locals 1
+
+    .prologue
+    .line 1021
+    iget-object v0, p0, Lpim;->a:Lpgy;
+
+    invoke-virtual {v0}, Lpgy;->y()Lpon;
+
+    move-result-object v0
+
+    .line 8
+    return-object v0
+.end method
